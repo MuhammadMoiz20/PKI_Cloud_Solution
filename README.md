@@ -23,7 +23,7 @@ Here is a diagram of our solution architecture:
 
 ![25 PKI cosc55 diagram moiz ramsey drawio](https://github.com/user-attachments/assets/76a3deaa-ded5-4f4f-965e-2a382d9e44d6)
 
-Here is a screenshot of the PKI working successfully, allowing a webserver to recognize another as certified by the organization ("SSL Verify OK"):
+Here is a screenshot of the PKI working successfully, allowing a webserver to recognize another as certified by the organization ("SSL Certificate Verify OK"):
 
 <img width="350" alt="Screenshot 2024-08-25 at 5 51 15 PM" src="https://github.com/user-attachments/assets/89e2f4b4-bd83-4816-a1bb-de9301fdf2f4">
 
