@@ -2,8 +2,14 @@
 ### What is this?
 This is our cloud security project for COSC 55 Summer 24. Moiz and I have successfully deployed a one-tier PKI for a small organization hosting two internal webservers. 
 
+### What problem does it solve?
+Many orgnaizations are prone to spoofing attacks, where an attacker will make a replicateo of an existing service or page and pretend to be the real thing. From there the attacker can embed scripts in their fake-site and compromise an organizations security.
+
+### What's your solution?
+We provide the organization with an internal Public Key Infrastructure, which is a system to deploy and revoke digital certificates (Read more about digital certificates here). The PKI contains a root Certificate Authority which can sign certificates and distribute them to web servers proving their authentic identity. Thus, an organization can be sure that its webservers belong to it and are communicating securely if the communication they recieve comes with a certificate.
+
 ### How does it work?
-Our Certificate Authority is an EC2 Ubuntu instance in a private subnet that distributes SSL certificates to the organization's EC2 webservers in public subnets (across two availbility zones for reliability). The CA issues certificates to any number of webservers that the organization is hosting internally, and those webservers then manually trust the certificates from the CA. Thus they are able to confirm the identity of webservers within the organization and can trust information gained therein, and can comunicate securely.
+Our Certificate Authority is an EC2 Ubuntu instance in a secure private subnet that distributes SSL certificates to the organization's EC2 webservers in public subnets (across two availbility zones for reliability). The CA issues certificates to any number of webservers that the organization is hosting internally, and those webservers then manually trust the certificates from the CA. Thus they are able to confirm the identity of webservers within the organization and can trust information gained therein. This way the servers can communicate securely knowing each others identity!
 
 ### How can I do it?
 Here are some key pages from the Wiki:
