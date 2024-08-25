@@ -3,7 +3,7 @@
 This is our cloud security project for COSC 55 Summer 24. Moiz and I have successfully deployed a one-tier PKI for a small organization hosting two internal webservers. 
 
 ### How does it work?
-Our Certificate Authority is an EC2 Ubuntu instance in a private subnet that distributes SSL certificates to the organization's EC2 webservers in public subnets across two availbility zones. The CA issues certificates to any number of webservers that the organization is hosting internally, and those webservers then manually trust the certificates from the CA. Thus they are able to confirm the identity of webservers within the organization and can trust information gained therein, and can comunicate securely.
+Our Certificate Authority is an EC2 Ubuntu instance in a private subnet that distributes SSL certificates to the organization's EC2 webservers in public subnets (across two availbility zones for reliability). The CA issues certificates to any number of webservers that the organization is hosting internally, and those webservers then manually trust the certificates from the CA. Thus they are able to confirm the identity of webservers within the organization and can trust information gained therein, and can comunicate securely.
 
 ### How can I do it?
 Here are some key pages from the Wiki:
