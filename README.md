@@ -8,7 +8,7 @@ This is our cloud security project for COSC 55 Summer 24. Moiz and I have succes
 </p>
 
 ### What problem does it solve?
-Many orgnaizations are prone to spoofing attacks, where an attacker will make a replicateo of an existing service or page and pretend to be the real thing. From there the attacker can embed scripts in their fake-site and compromise an organizations security.
+Many orgnaizations are prone to spoofing attacks, where an attacker will make a replica of an existing service or page and pretend to be the real thing. From there the attacker can embed scripts in their fake-site and compromise an organizations security.
 
 ### What's your solution?
 We provide the organization with an internal Public Key Infrastructure, which is a system to deploy and revoke digital certificates (Read more about PKI and digital certificates [here](https://www.youtube.com/watch?v=0ctat6RBrFo)). The PKI contains a root Certificate Authority which can sign certificates and distribute them to web servers proving their authentic identity. Thus, an organization can be sure that its webservers belong to it and are communicating securely if the communication they recieve comes with a certificate.
