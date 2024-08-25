@@ -26,7 +26,6 @@ Here is a diagram of our solution architecture:
 Here is a screenshot of the PKI working successfully, allowing a webserver to recognize another as certified by the organization ("SSL Certificate Verify OK"):
 
 <img width="621" alt="Screenshot 2024-08-25 at 6 04 50 PM" src="https://github.com/user-attachments/assets/c795aa75-263e-4024-9ec7-5832b5b75170">
-<img width="350" alt="Screenshot 2024-08-25 at 5 51 15 PM" src="https://github.com/user-attachments/assets/89e2f4b4-bd83-4816-a1bb-de9301fdf2f4">
 
 
 
