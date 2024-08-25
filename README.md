@@ -32,5 +32,7 @@ Here is a screenshot of the PKI working successfully, allowing a webserver to re
 
 <img width="621" alt="Screenshot 2024-08-25 at 6 04 50 PM" src="https://github.com/user-attachments/assets/c795aa75-263e-4024-9ec7-5832b5b75170">
 
+### If you're a grader...
+Please note that this project took far more than 12 hours to complete. Originally, we were hoping to deploy [this stack](https://aws.amazon.com/ar/solutions/implementations/microsoft-pki/) as a base to start from, but after several hours of troubleshooting DNS and elastic IPs we had to abandon this plan. Our Plan B was to deploy a two-tier stack, but after an all-nighter trying to set up certificate chaining we realized the time constraints of this project would not allow us to implement a subordinate CA. After that, we settled on the solution we are now offering. Be kind!!
 
 
