@@ -7,13 +7,13 @@ This is our cloud security project for COSC 55 Summer 24. Moiz and I have succes
   <img width="180" alt="Screenshot 2024-08-25 at 6 06 52 PM" src="https://github.com/user-attachments/assets/c39a7907-0aa2-4952-9446-4d7867526a15">   
 </p>
 
-### What problem do you solve?
+### What problem do you solve? (From the [Wiki](https://github.com/RamseyW2004/cosc55project/wiki/Problem-and-Solution-Overview))
 Many organizations are prone to spoofing attacks, where an attacker will make a replica of an existing service or page and pretend to be the real thing. From there the attacker can embed scripts in their fake-site and compromise an organization's security.
 
-### What's your solution?
+### What's your solution? (From the [Wiki](https://github.com/RamseyW2004/cosc55project/wiki/Problem-and-Solution-Overview))
 We provide the organization with an internal Public Key Infrastructure, which is a system to deploy and revoke digital certificates (Learn more about PKI and digital certificates [here](https://www.youtube.com/watch?v=0ctat6RBrFo)). The PKI contains a root Certificate Authority which can sign certificates and distribute them to web servers proving their authentic identity. Thus, an organization can be sure that its webservers belong to it and are communicating securely if the communication they recieve comes with a certificate.
 
-### How does it work?
+### How does it work? (From the [Wiki](https://github.com/RamseyW2004/cosc55project/wiki/Problem-and-Solution-Overview))
 Our Certificate Authority is an EC2 Ubuntu instance in a secure private subnet that distributes SSL certificates to the organization's EC2 webservers in public subnets (across two availbility zones for reliability). The CA issues certificates to any number of webservers that the organization is hosting internally, and those webservers then manually trust the certificates from the CA. Thus they are able to confirm the identity of webservers within the organization and can trust information gained therein. This way the servers can communicate securely knowing each others identity!
 
 ### How can I do it?
