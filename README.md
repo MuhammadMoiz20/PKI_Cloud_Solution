@@ -1,10 +1,12 @@
 # PKI Cloud Solution - Moiz and Ramsey
 This is our cloud security project for COSC 55 Summer 24. Moiz and I have successfully deployed a one-tier PKI for a small organization hosting two internal webservers. If you're curious, this is what we look like:
 
+
 <p align="center">
   <img width="200" alt="Screenshot 2024-08-25 at 6 06 52 PM" src="https://github.com/user-attachments/assets/9f119f67-c0c8-477a-99ef-da440e7d452e">  
   <img width="180" alt="Screenshot 2024-08-25 at 6 06 52 PM" src="https://github.com/user-attachments/assets/c39a7907-0aa2-4952-9446-4d7867526a15">   
 </p>
+
 
 ### What problem does it solve?
 Many orgnaizations are prone to spoofing attacks, where an attacker will make a replicateo of an existing service or page and pretend to be the real thing. From there the attacker can embed scripts in their fake-site and compromise an organizations security.
