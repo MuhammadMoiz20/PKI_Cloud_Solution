@@ -10,7 +10,7 @@ From the Wiki:
 
 
 
-Here is a diagram of our architecture:
+Here is a diagram of our solution architecture:
 
 ![25 PKI cosc55 diagram moiz ramsey drawio](https://github.com/user-attachments/assets/76a3deaa-ded5-4f4f-965e-2a382d9e44d6)
 
