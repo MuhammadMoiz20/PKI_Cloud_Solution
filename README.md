@@ -1,7 +1,7 @@
 # PKI Cloud Solution - Moiz and Ramsey
 
 <img width="100" alt="Screenshot 2024-08-25 at 6 06 52 PM" src="https://github.com/user-attachments/assets/9f119f67-c0c8-477a-99ef-da440e7d452e">  
-<img width="100" alt="Screenshot 2024-08-25 at 6 06 52 PM" src="https://github.com/user-attachments/assets/c39a7907-0aa2-4952-9446-4d7867526a15">   
+<img width="90" alt="Screenshot 2024-08-25 at 6 06 52 PM" src="https://github.com/user-attachments/assets/c39a7907-0aa2-4952-9446-4d7867526a15">   
 
 This is our cloud security project for COSC 55 Summer 24. Moiz and I have successfully deployed a one-tier PKI for a small organization hosting two internal webservers. 
 
