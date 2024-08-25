@@ -12,13 +12,14 @@ Here are some key pages from the Wiki:
 * [Here](https://github.com/RamseyW2004/cosc55project/wiki/System-Deployment-Plan) is an abstract system deployment plan.
 * [Here](https://github.com/RamseyW2004/cosc55project/wiki/References) are a list of references we consulted throughout the development of our solution.
 
-
-
-
+###What does it look like?
 Here is a diagram of our solution architecture:
 
 ![25 PKI cosc55 diagram moiz ramsey drawio](https://github.com/user-attachments/assets/76a3deaa-ded5-4f4f-965e-2a382d9e44d6)
 
+Here is a screenshot of the PKI working successfully, allowing a webservers to recognize another as certified by the organization:
+
+<img width="350" alt="Screenshot 2024-08-25 at 5 51 15 PM" src="https://github.com/user-attachments/assets/89e2f4b4-bd83-4816-a1bb-de9301fdf2f4">
 
 
 
