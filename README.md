@@ -4,6 +4,9 @@ This is our cloud security project for COSC 55 Summer 24. Moiz and I have succes
 From the Wiki:
 * [Here](https://github.com/RamseyW2004/cosc55project/wiki/Functional-PKI-Deployment-Guide) is a guide to deploy the PKI.
 * [Here](https://github.com/RamseyW2004/cosc55project/wiki/Functional-Cloud-Deployment-Guide) is a guide to deploy the cloud environment in AWS.
+* [Here](https://github.com/RamseyW2004/cosc55project/wiki/System-Deployment-Plan) is an abstract system deployment plan.
+
+
 
 Here is a diagram of our architecture:
 
