@@ -3,6 +3,7 @@ This is our cloud security project for COSC 55 Summer 24. Moiz and I have succes
 
 Here is a diagram of our architecture:
 
-![25 PKI cosc55 diagram moiz ramsey drawio](https://github.com/user-attachments/assets/9ae0aee2-3a39-4698-9be0-eb36db0a8a03)
+![25 PKI cosc55 diagram moiz ramsey drawio](https://github.com/user-attachments/assets/76a3deaa-ded5-4f4f-965e-2a382d9e44d6)
+
 
 
